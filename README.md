@@ -8,8 +8,11 @@ To publish data to an IoT broker using the MQTT protocol.
 
  ## Apparatus Required:
 MQTT Broker: An MQTT broker, such as HiveMQ or Mosquitto, for handling communication.
+
 Python Environment: To run the script for publishing data to the broker.
+
 Internet Connection: For connecting to the IoT broker.
+
 Theory:
 MQTT (Message Queuing Telemetry Transport) is a lightweight messaging protocol used in IoT applications. It allows devices to publish data to a broker, where other devices or applications can subscribe to receive updates. This experiment demonstrates how to use MQTT to send messages to an IoT broker using the paho-mqtt library in Python.
 
